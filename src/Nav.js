@@ -18,11 +18,11 @@ function Header() {
             <Navbar.Brand href="#home" ><img src={logo} className='logo'></img></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" ><FaBars className='togg' /></Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="fs-5 head ms-auto ">
-                <Nav.Link className='ms-5 skk'><Link to={"/"}>Home</Link></Nav.Link>
-                <Nav.Link className='ms-5 skk' ><Link to={"/Skills"}>Skills</Link></Nav.Link>
-                <Nav.Link className='ms-5 skk'><Link to={"/About"}>About</Link></Nav.Link>
-                <Nav.Link className='ms-5 skk'><Link to={"/Contact"}>Contact</Link></Nav.Link>
+              <Nav className=" head ms-auto ">
+                <Nav.Link className='ms-5 fs-6 skk'><Link to={"/"}>Home</Link></Nav.Link>
+                <Nav.Link className='ms-5 fs-6 skk' ><Link to={"/Skills"}>Skills</Link></Nav.Link>
+                <Nav.Link className='ms-5 fs-6 skk'><Link to={"/About"}>About</Link></Nav.Link>
+                <Nav.Link className='ms-5 fs-6 skk'><Link to={"/Contact"}>Contact</Link></Nav.Link>
 
               </Nav>
             </Navbar.Collapse>

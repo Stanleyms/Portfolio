@@ -22,11 +22,12 @@ function Contact() {
     return (
         <div>
             <ToastContainer></ToastContainer>
+            
             <Container fluid className="contacttopp pb-5">
                 <Container className="contacttop pt-5 text-center">
-                    <h1 className="chead mt-5 pt-5">Contact me</h1>
-                    <p className="contactcontent mt-5 ">Want to get in touch? I'd love to hear from you.Here's how you can reach me...</p>
-                    <Row className="mt-3 pt-5 justify-content-center">
+                    <h1 className="chead fs-1 mt-5 pt-5">Contact me</h1>
+                    <p className="contactcontent fs-6 mt-4 ">Want to get in touch? I'd love to hear from you.Here's how you can reach me...</p>
+                    <Row className="mt-2 pt-5 justify-content-center">
                         <Col lg="7" >
                             <form onSubmit={Handlesubmit} ref={form}>
                                 <input type="Text" placeholder="Enter your name" className="call pt-2" name="name"></input>

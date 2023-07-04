@@ -13,7 +13,7 @@ function Skills() {
         <div>
             <Container fluid className="sktop">
                 <Container className="sktop">
-                    <h1 className="skhead pt-5">My Skills</h1>
+                    <h1 className="skhead fs-1 pt-5">My Skills</h1>
                     <Container className="icontainer">
                         <Row>
                             <Col lg="3" md="3" sm="6" xs="6" className="mt-5 text-center text-light sl"><img src={html} className="d-block ms-auto me-auto"></img>Html</Col>
@@ -29,7 +29,7 @@ function Skills() {
                     </Container>
                     <Container className="line mt-5 "></Container>
                     <Container>
-                        <h1 className="mt-2 pt-5 certi">Certification </h1>
+                        <h1 className="mt-2 pt-5 fs-2 certi">Certification </h1>
                         <p className="certiplace mt-3">Full stack web development - <span className="certilocation">Nschool academy</span></p>
                         <Row className="view text-center mt-4">
                             <Link to={"https://drive.google.com/file/d/11RGlD-BfC44ItN2V8J0xW4adVyNsfNnk/view?usp=drivesdk"}> <Button className="zoom">View Certificate</Button></Link>

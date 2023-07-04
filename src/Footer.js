@@ -17,8 +17,8 @@ function Footer() {
                             <a href="https://instagram.com/stan_ley__24?igshid=NGExMmI2YTkyZg==" className="ms-2 mt-5"><BsInstagram className=" ms-2 footer-logo" /></a>
                             <a href="https://wa.me/qr/QJGQOURGQIWQA1 " className="ms-2 mt-5"><BsWhatsapp className=" ms-2 footer-logo" /></a>
                         </Col>
-                        <Col className="text-light text-center" lg="4" >&#169; 2023 stanley  </Col>
-                        <Col lg="4" className="text-light text-center"><VscLocation className="copyright" /> Bangalore</Col>
+                        <Col className="text-light text-center mt-2" lg="4" >&#169; 2023 stanley  </Col>
+                        <Col lg="4" className="text-light text-center mt-1"><VscLocation className="copyright" /> Bangalore</Col>
 
                     </Row>
                 </Container>

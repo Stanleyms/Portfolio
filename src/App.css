@@ -50,12 +50,12 @@
   width: 120px;
 }
 .cn{
-  font-size: 50px;
+
   color:whitesmoke;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .id{
-  font-size: 50px;
+  
   background: linear-gradient(to right bottom, rgb(83, 161, 229),#0aaddaa2,rgb(4, 75, 162));
   -webkit-background-clip: text;
   background-clip: text;
@@ -78,10 +78,10 @@
 .hc{
   color:whitesmoke;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 30px;
+ 
 }
 .idd{
-  font-size: 30px;
+ 
   background: linear-gradient(to right bottom, rgb(116, 162, 203),#6fc4dba2,rgb(2, 53, 114));
   -webkit-background-clip: text;
   background-clip: text;
@@ -152,7 +152,7 @@
 
 .ii{
   display: inline-block;
-  margin: 1em;
+ 
   
   
   text-align: center;
@@ -175,7 +175,7 @@
 .skhead{
   text-align: center !important;
   color: white;
-  font-size: 50px;
+  
   font-family:'Roboto Slab';
   background: linear-gradient(to right bottom, rgb(116, 162, 203),#6fc4dba2,rgb(2, 53, 114));
   -webkit-background-clip: text;
@@ -203,7 +203,7 @@
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   text-align: center;
-  font-size: 40px;
+  
 }
 .certiplace{
   color: whitesmoke !important;
@@ -265,7 +265,7 @@ text-align: center;
   text-align: center !important;
   font-family: 'Outfit' !important;
   max-width: 800px !important;
-  font-size: 27px !important;
+ 
 }
 .divider{
   height: 2px;
@@ -288,14 +288,14 @@ text-align: center;
   color:#086a8d;
   text-align: center;
   font-family:Geologica;
-  font-size: 50px;
+  
   
 }
 
 .contactcontent{
   color: azure;
   letter-spacing: 3px;
-  font-size: 22px;
+  
   
   text-align: center !important;
 }
@@ -339,8 +339,8 @@ text-align: center;
   font-size: 20px !important;
 }
 .projecthead{
-color: rgb(10, 83, 99) !important;
-  font-size: 60px !important;
+color: rgb(14, 159, 192) !important;
+ 
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: grid !important;
   place-items: center !important;
@@ -349,14 +349,14 @@ color: rgb(10, 83, 99) !important;
 }
 
 .projecthead:hover{
-  color: rgb(7, 106, 143)!important;
+  color: rgb(30, 190, 208)!important;
 }
 .projecthead::before{
   content: "";
   position: absolute;
   display:block;
-  width: 280px;
-  height: 4px;
+  width: 140px;
+  height: 1px;
 bottom: 0px;
   left: 2;
   background-color:white;
